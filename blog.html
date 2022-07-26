@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>FOURSQUARE</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="header-1">
+            <a href="index.html" class="logo"><img src="/images/logo_5.png" alt="logo"></a>
+
+            <form action="" class="search-box-container">
+                <input type="text" id="search-box" placeholder="Search here">
+                <label for="search-box" class="ion-search"></label>
+            </form>
+        </div>
+
+        <div class="header-2">
+
+            <div id="menu-bar" class="ion-navicon-round"></div>
+
+            <nav class="navbar shop-nav">
+                <a href="/">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="food.html">Food</a>
+                <a href="shop.html">Shop</a>
+                <a href="/" class="active">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <a href="/signin.html"><i class="ion-ios-locked"></i></a>
+                <a href="/signup.html"><i class="ion-person"></i></a>
+                <i class="ion-ios-cart" id="cart-icon"></i>
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart</h2>
+
+                    <div class="cart-content">
+                        <div class="cart-box">
+                            <a href="#"><img src="shop image/13 janemena.png" class="cart-img"></a>
+                            <div class="detail-box">
+                                <h2 class="cart-product-title">blue suit</h2>
+                                <div class="cart-price">N25,000</div>
+                                <input type="number" value="1" class="cart-quantity">
+                            </div>
+                            <i class="ion-ios-trash"></i>
+                        </div>
+                    </div>
+
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">N0</div>
+                    </div>
+                    <button type="button" class="btn-buy">Buy Now</button>
+                    <i class="ion-ios-close" id="close-cart"></i>
+
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--------------Body Section-------------------->
+
+    <section class="blog">
+
+        <div class="blog-container">
+            <div class="b-left-col">
+
+                <div class="box">
+                    <div class="content">
+                        <img src="/images/okra soup pot 1.jpeg">
+                        <h2>A delicious Okra soup on fire</h2>
+                        <div class="icon">
+                            <a href="/"><i class="ion-ios-calendar"></i>March 12, 2022</a>
+                            <a href="/"><i class="ion-ios-folder"></i>gallery</a>
+                            <a href="/"><i class="ion-ios-pricetags"></i>gallery, news slider</a>
+                        </div>
+                        <p>All we see is the stomach, how good the feeling is when you eat good food.</p>
+                        <a href="food.html" class="btn">read more<i class="ion-arrow-right-a"></i> </a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="content">
+                        <img src="furniture img/dining.jpg">
+                        <h2>amazing classic interior design with perfect lighting</h2>
+                        <div class="icon">
+                            <a href="#"><i class="ion-ios-calendar"></i>March 12, 2022</a>
+                            <a href="#"><i class="ion-ios-folder"></i>gallery</a>
+                            <a href="#"><i class="ion-ios-pricetags"></i>gallery, news slider</a>
+                        </div>
+                        <p>today, we'll be looking at the beauty of the living rooms, when we apply nature.</p>
+                        <a href="furniture.html" class="btn">read more<i class="ion-arrow-right-a"></i> </a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="content">
+                        <img src="shop image/senator 1.jpg">
+                        <h2>good looking tailorfitted agbada </h2>
+                        <div class="icon">
+                            <a href="/"><i class="ion-ios-calendar"></i>March 12, 2022</a>
+                            <a href="/"><i class="ion-ios-folder"></i>gallery</a>
+                            <a href="/"><i class="ion-ios-pricetags"></i>gallery, news slider</a>
+                        </div>
+                        <p>today, we'll be looking at the beauty of fashion, when we apply nature through a good tailor.</p>
+                        <a href="shop.html" class="btn">read more<i class="ion-arrow-right-a"></i> </a>
+                    </div>
+                </div>
+
+                
+                <div class="box">
+                    <div class="content">
+                        <img src="/art img/color horse.jpg">
+                        <h2>amazing painting work of art<article></article></h2>
+                        <div class="icon">
+                            <a href="/"><i class="ion-ios-calendar"></i>March 12, 2022</a>
+                            <a href="/"><i class="ion-ios-folder"></i>gallery</a>
+                            <a href="/"><i class="ion-ios-pricetags"></i>gallery, news slider</a>
+                        </div>
+                        <p>nature is always good looking at home, where ever you place it..</p>
+                        <a href="art.html" class="btn">read more <i class="ion-arrow-right-a"></i> </a>
+                    </div>
+                </div>
+
+                <div class="next-page">
+                    <div class="page">1</div>
+                    <div class="page">2</div>
+                    <div class="page">Next<i class="ion-arrow-right-c"></i> </div>
+                </div>
+
+            </div>
+
+            <div class="b-right-col">
+
+                <div class="box">
+                    <form action="" class="search-box">
+                        <input type="search" placeholder="search here" id="b-search-box">
+                        <label href="/"><i class="ion-search"></i></label>
+                    </form>
+                </div>
+
+                <div class="b-r-1">
+                    <div class="box">
+                        <h2 class="title">categories</h2>
+                        <div class="content">
+                            <a href="/"> <i class="ion-arrow-right-b"></i>audio</a>
+                            <a href="art.html"> <i class="ion-arrow-right-b"></i>gallery</a>
+                            <a href="/"> <i class="ion-arrow-right-b"></i>image</a>
+                            <a href="/"> <i class="ion-arrow-right-b"></i>video</a>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="b-r-1 b-r-2">
+                    <div class="box">
+                        <h2 class="title">newsletter</h2>
+                        <form action="" class="search-box">
+                            <input type="text" placeholder="your email address" id="b-search-box">
+                            <label for="b-search-box">sign up</label>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="b-r-1 b-r-2">
+                    <div class="box">
+                        <h2 class="title">tags</h2>
+                        <div class="tags">
+                            <a href="/">audio</a>
+                            <a href="shop.html">shop</a>
+                            <a href="product.html">image</a>
+                            <a href="food.html">food</a>
+                            <a href="art.html">gallery</a>
+                            <a href="/index.html">Soup</a>
+                            <a href="furniture.html">Furnitures</a>
+                            <a href="/">slider</a>
+                            <a href="/">video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="b-r-1">
+                    <div class="box">
+                        <h2 class="title">menu</h2>
+                        <div class="content">
+                            <a href="/"><i class="ion-arrow-right-c"></i>register</a>
+                            <a href="signin.html"><i class="ion-arrow-right-c"></i>log in</a>
+                            <a href="/"><i class="ion-arrow-right-c"></i>entries feed</a>
+                            <a href="/"><i class="ion-arrow-right-c"></i>comments feed</a>
+                            <a href="/"><i class="ion-arrow-right-c"></i>facebook.org</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    
+    
+    <!---------------------Footer Section---------------------->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="/index.html"><img src="/images/logo_8.png" alt=""></a>
+                <div class="icons icons-1">
+                    <a href="/"><i class="ion-android-call"></i>+2348104636980</a>
+                    <a href="/"><i class="ion-iphone"></i>+2348104636980</a>
+                    <a href="/"><i class="ion-email"></i>4square@gmail.com</a>
+                    <a href="/"><i class="ion-android-globe"></i>www.4square.com</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>categories</h2>
+                <div class="icons">
+                    <a href="/">Food</a>
+                    <a href="/">Grocery</a>
+                    <a href="/">Breakfast</a>
+                    <a href="/">Local and soft drinks</a>
+                    <a href="/">Biscuits & cookies</a>
+                </div>
+
+            </div>
+            
+            <div class="box">
+                <h2>Beauty</h2>
+                <div class="icons">
+                    <a href="/shop.html">Clothing</a>
+                    <a href="/art.html">Art</a>
+                    <a href="/blog.html">Blog</a>
+                    <a href="/furniture.html">Furnitures</a>
+                </div>
+    
+            </div>
+
+            
+            <div class="box">
+                <h2>About Us</h2>
+                <div class="icons">
+                    <a href="/about.html">company information</a>
+                    <a href="/about.html">careers</a>
+                    <a href="/about.html">store location</a>
+                    <a href="/about.html">copyright</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="wrights">
+        <div class="credit">copyright 2022. <span>4SQUARE</span> All rights resevered.</div>
+    </section>
+
+
+    
+
+
+
+
+
+    <link rel="stylesheet" href="/queries.css">
+    <script src="/app.js"></script>
+</body>
+</html>

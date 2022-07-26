@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>FOURSQUARE</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="header-1">
+            <a href="/index.html" class="logo"><img src="/images/logo_8.png" alt="logo"></a>
+
+            <form action="" class="search-box-container">
+                <input type="text" id="search-box" placeholder="Search here" onkeyup="search()">
+                <label for="search-box" class="ion-search"></label>
+            </form>
+        </div>
+
+        <div class="header-2">
+
+            <div id="menu-bar" class="ion-navicon-round"></div>
+
+            <nav class="navbar shop-nav">
+                <a href="/">Home</a>
+                <a href="/about.html">about us</a>
+                <a href="/food.html">food</a>
+                <a href="/shop.html">shop</a>
+                <a href="/blog.html">blog</a>
+                <a href="/contact.html">contact</a>
+            </nav>
+
+            <div class="icons">
+                <a href="/signin.html"><i class="ion-ios-locked"></i></a>
+                <a href="/signup.html"><i class="ion-person"></i></a>
+                <i class="ion-ios-cart" id="cart-icon"></i>
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart</h2>
+
+                    <div class="cart-content">
+                        <div class="cart-box">
+                            <a href="#"><img src="shop image/13 janemena.png" class="cart-img"></a>
+                            <div class="detail-box">
+                                <h2 class="cart-product-title">blue suit</h2>
+                                <div class="cart-price">N25,000</div>
+                                <input type="number" value="1" class="cart-quantity">
+                            </div>
+                            <i class="ion-ios-trash" id="cart-remove" ></i>
+                        </div>
+                    </div>
+
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">N0</div>
+                    </div>
+                    <button type="button" class="btn-buy">Buy Now</button>
+                    <i class="ion-ios-close" id="close-cart"></i>
+
+                </div>
+            </div>
+  
+        </div>
+
+    </header>
+
+    <!------Home Section------>
+    <section class="shop container">
+        <h2 class="section-title">CLASSY LADIES</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <a href="productdetail.html"><img src="shop image/13 janemena.png" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+
+            <div class="product-box">
+                <a href="#"><img src="shop image/tacha 18.png" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+            <div class="product-box">
+                <a href="#"><img src="shop image/3 toke.png" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+            <div class="product-box">
+                <a href="#"><img src="shop image//12 iniedo.png" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+            <div class="product-box">
+                <a href="#"><img src="shop image/17 tacha.jpg" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+    
+            <div class="product-box">
+                <a href="#"><img src="shop image/tacha 18.png" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+            <div class="product-box">
+                <a href="#"><img src="shop image/3 toke.png" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+            <div class="product-box">
+                <a href="#"><img src="shop image//12 iniedo.png" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+            <div class="product-box">
+                <a href="#"><img src="shop image/17 tacha.jpg" class="product-img"></a>
+                <h2 class="product-title">blue suit</h2>
+                <span class="price">N25,000</span>
+                <button class="cart">Cart</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+               
+
+
+    <!-------------Footer Section---------------->
+
+    <section class="footer">
+
+        <div class="wrapper">
+
+            <div class="feature-box">
+
+            <i class="ion-android-car"></i>
+            <div class="content">
+                <h3>Free & Next Day Delivery</h3>
+                <p>We got your back anytime!</p>
+            </div>
+
+            </div>
+
+            <div class="feature-box">
+
+                <i class="ion-ios-cart"></i>
+                <div class="content">
+                    <h3>100% satisfaction guarantee </h3>
+                    <p>Place your Order Now!</p>
+                </div>
+
+            </div>
+
+            
+            <div class="feature-box">
+
+                <i class="ion-pricetags"></i>
+                <div class="content">
+                    <h3>great daily deals discount</h3>
+                    <p>Check out our subscription plan!</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="/index.html"><img src="/images/logo_8.png" alt=""></a>
+                <div class="icons icons-1">
+                    <a href="/"><i class="ion-android-call"></i>+2348104636980</a>
+                    <a href="/"><i class="ion-iphone"></i>+2348104636980</a>
+                    <a href="/"><i class="ion-email"></i>4square@gmail.com</a>
+                    <a href="/"><i class="ion-android-globe"></i>www.4square.com</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>categories</h2>
+                <div class="icons">
+                    <a href="/">Food</a>
+                    <a href="/">Grocery</a>
+                    <a href="/">Breakfast</a>
+                    <a href="/">Local and soft drinks</a>
+                    <a href="/">Biscuits & cookies</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <h2>Beauty</h2>
+                <div class="icons">
+                    <a href="/shop.html">Clothing</a>
+                    <a href="/art.html">Art</a>
+                    <a href="/blog.html">Blog</a>
+                    <a href="/furniture.html">Furnitures</a>
+                </div>
+    
+            </div>
+
+            
+            <div class="box">
+                <h2>About Us</h2>
+                <div class="icons">
+                    <a href="/about.html">company information</a>
+                    <a href="/about.html">careers</a>
+                    <a href="/about.html">store location</a>
+                    <a href="/product.html">copyright</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    <section class="wrights">
+        <div class="credit">copyright 2022. <span>4SQUARE</span> All rights resevered.</div>
+    </section>
+
+    
+
+
+
+
+
+    <link rel="stylesheet" href="/queries.css">
+    <script src="/app.js"></script>
+</body>
+</html>
